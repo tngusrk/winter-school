@@ -8,25 +8,25 @@
     width : 100%;
     height : 26vh;
     border-radius : 3vh;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .shape2 {
-    height : 19vh;
-    margin-left : 4vw;
+    height : 17vh;
+    margin-left : 5vw;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    font-size: 6vh;
+    font-size: 5vh;
+    font-family: 'nanumsquare';
 }
 
 .shape3 {
     height : 9vh;
-    margin-left : 4vw;
+    margin-left : 5vw;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 
 .empty {
@@ -39,17 +39,46 @@ a {
 }
 
 body {
-    font-family: 'Noto Sans KR', sans-serif;
-    overflow : hidden;
+    font-family: 'maruburi';
 }
 
 .important {
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'nanumsquare';
 }
 
 .important1 {
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: x-large
+    font-family: 'nanumsquare';
 }
 
+@font-face {
+    font-family: 'maruburi';
+    src: url('fonts/MaruBuri-Regular.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: 'nanumsquare';
+    src: url('fonts/NanumSquareNeo-dEb.ttf') format('truetype');
+}
+
+button {
+    width:90vw; 
+    height: 12vw;
+    margin-top: 5vw;
+    margin-left:3vw; 
+    background-color: #0080FF; 
+    color:white; 
+    border:1px solid;
+    border-radius:3vw; 
+    font-size: 6vw;
+}
+
+button:hover {
+    background-color: #005fbe; 
+}
+  
+button:disabled,
+button[disabled] {
+    border: 1px solid;
+    background-color: #0080ff82;
+  }
+  
