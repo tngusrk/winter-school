@@ -60,37 +60,25 @@ body {
     src: url('fonts/NanumSquareNeo-dEb.ttf') format('truetype');
 }
 
-.subject {
-    background-color : rgba(255, 255, 255, 0);
-    border-radius : 3vw;
-    width : 29vw;
-    height: 15vw;
-    margin-bottom : 3vw;
-    margin-left : 2vw;
-    display: inline-block;
-    border-style : solid ;
-    border-color: gray;
-    font-family: 'maruburi';
-    font-size: 3.5vw;
-    cursor: pointer;
+button {
+    width:90vw; 
+    height: 12vw;
+    margin-top: 5vw;
+    margin-left:3vw; 
+    background-color: #0080FF; 
+    color:white; 
+    border:1px solid;
+    border-radius:3vw; 
+    font-size: 6vw;
 }
 
-.subject1 {
-    background-color : rgba(255, 255, 255, 0);
-    border-radius : 3vw;
-    width : 93vw;
-    height: 15vw;
-    margin-bottom : 3vw;
-    margin-left : 2vw;
-    display: inline-block;
-    border-style : solid ;
-    border-color: gray;
-    font-family: 'maruburi';
-    font-size: 3.5vw;
+button:hover {
+    background-color: #005fbe; 
 }
-
-.subject:active {
-    background-color:#0080FF;
-    border-color: gray;
-    color:white;
-}
+  
+button:disabled,
+button[disabled] {
+    border: 1px solid;
+    background-color: #0080ff82;
+  }
+  
